@@ -1,0 +1,15 @@
+// testing math functions
+
+i: integer = 11;
+x: integer = 5;
+
+main: function integer () = {
+	x = x+(2^10)%17;
+	print x, "\n";
+	print x+1, "\n";
+	print i-1, "\n";
+	a: integer = -100+30*5/10-5;
+	a++;
+	i--;
+	return x*i+a;
+}

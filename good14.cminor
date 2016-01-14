@@ -1,0 +1,14 @@
+// calling a function from a function
+
+fleaf: function integer (a:integer) = {
+	return 5*a;
+}
+
+fparent: function integer (a: integer) = {
+	return fleaf(a)^2;
+}
+
+main: function void () = {
+	print fparent(2), "\n";
+	return;
+}

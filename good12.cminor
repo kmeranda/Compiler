@@ -1,0 +1,12 @@
+// my life is in shambles
+
+main:function boolean () = {
+	i: integer = 0;
+	s: string = "shambles ";
+	if(s == "shambles ") {
+		print "my life is in ";
+		for (i=0; i<10; i++)
+			print s;
+	}
+	print "\n";
+}

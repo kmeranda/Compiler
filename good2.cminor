@@ -1,0 +1,13 @@
+// some simple prints
+
+i: integer = 11;
+x: integer = 5;
+b: boolean = false;
+
+main: function integer () = {
+	print "hello world.\n";
+	print x, ">", i, " : ", x>i, "\n";
+	print b, "\t", "hi"=="hello", "\n";
+	return x;
+}
+

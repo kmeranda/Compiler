@@ -1,0 +1,12 @@
+// is it christmas yet?
+
+main: function void () = {
+	todays_date: integer = 11;
+	print "Is it Christmas yet?\n";
+	if(todays_date >= 25) {
+		print "yes\n";
+	}
+	else {
+		print "no\n";
+	}
+}

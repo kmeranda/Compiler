@@ -1,0 +1,25 @@
+// playing with the fib function
+
+fib: function integer ( x: integer ) =
+{
+	i: integer = x-1;
+	i2: integer = x-2;
+	if( x<1 ) {
+		return 0;
+	} else {
+		if(x<2) {
+			return 1;
+		} else {
+			return fib(i) + fib(i2);
+		}
+	}
+}
+
+main: function integer () = {
+	i: integer = 10;
+	i--;
+	print i;
+	for(i=10; i>=0; i--)
+		print i, "\t", fib(i), "\n";
+	return 0;
+}

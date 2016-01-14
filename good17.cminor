@@ -1,0 +1,9 @@
+// scope?
+
+main: function void () = {
+	print "I'm starting to run out of things to test\n";
+	if (true && (true || false)) {
+		i:integer = 10;
+		print i;
+	}
+}

@@ -1,0 +1,11 @@
+main: function integer () = {
+	x: integer = 0;
+	print x, "\n";
+	x++;
+	print x, "\n";
+	x = x*10-3%2;
+	print x, "\n";
+	x--;
+	print x, "\n";
+	return x;
+}

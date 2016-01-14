@@ -1,0 +1,12 @@
+// function prototypes
+
+f: function void ();
+
+main: function integer () = {
+	f();
+	return 0;
+}
+
+f: function void () = {
+	print "I entered a function.\n";
+}

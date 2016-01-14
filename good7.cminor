@@ -1,0 +1,12 @@
+// function call
+
+f: function integer (x: integer) = {
+	return x^2;
+}
+
+main: function void () = {
+	x: integer = 5;
+	y: integer = f(x);
+	print x, " ", y, "\n";
+	return;
+}

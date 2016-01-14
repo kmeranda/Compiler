@@ -1,0 +1,15 @@
+// local variable declarations
+
+main: function void () = {
+	i: integer = 13;
+	s: string = "hallo";
+	s1: string;
+	c: char = 'd';
+	x: integer = 3;
+	b: boolean = true;
+	i1: integer = 11;
+	c1: char;
+	x1: integer;
+	b1: boolean;
+	return;
+}

@@ -1,0 +1,28 @@
+i: integer = 11;
+s: string = "hello";
+s1: string;
+c: char = 'c';
+x: integer = 5;
+b: boolean = false;
+
+f: function integer (q: integer, a: char) = {
+	print a, "\t", b, "\n";
+	return q+10;
+}
+
+main: function integer () = {
+	//x = 2^10;
+	print x, "\n";
+	f(x, c);
+	print s=="hello ";
+	return x;
+}
+
+
+/**********************************
+
+ISSUES TO RESOLVE
+==: global idents of type string seg fault
+function args that are composite types
+
+***********************************/

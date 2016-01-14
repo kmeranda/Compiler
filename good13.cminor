@@ -1,0 +1,26 @@
+// from maze.cminor
+
+rand: function integer ();
+srand: function void ( seed: integer );
+time: function integer ( zero: integer );
+
+main: function void () = {
+	xsize: integer = 30;
+	ysize: integer = 30;
+
+	srand(time(0));
+
+	i: integer;
+	j: integer;
+	
+	for(j=0;j<ysize;j++) {
+		for(i=0;i<xsize;i++) {
+			if(rand()%2==1) {
+				print '/';
+			} else {
+				print '\\';
+			}
+		}
+		print "\n";
+	}
+}

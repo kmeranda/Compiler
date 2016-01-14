@@ -1,0 +1,8 @@
+// for loop!
+
+main: function void () = {
+	i: integer;
+	for(i=0; i<10; i++)
+		print "hi\n";
+	return;
+}

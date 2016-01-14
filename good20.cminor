@@ -1,0 +1,12 @@
+// One more test file
+
+lastTestFile: boolean = true;
+i: integer;
+
+main: function void () = {
+	print "Is this the last test function?\n";
+	if (lastTestFile)
+		for (i=0; i<100; i++)
+			print "yes ";
+	print "\n";
+}

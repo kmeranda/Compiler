@@ -1,0 +1,17 @@
+// lots of global variables
+
+i: integer = 11;
+s: string = "hello";
+s1: string;
+c: char = 'c';
+x: integer = 5;
+b: boolean = false;
+i1: integer = 11;
+c1: char;
+x1: integer;
+b1: boolean;
+
+main: function integer () = {
+	return x;
+}
+

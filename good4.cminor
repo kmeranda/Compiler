@@ -1,0 +1,15 @@
+// logical operations
+s: string = "hi";
+
+main: function boolean () = {
+	a: string = "hi";
+	b: boolean = true || false;
+	c: boolean = false && true;
+	d: boolean = 10>=10;
+	e: boolean = 10>10;
+	f: boolean = 5!=10;
+	g: boolean = s==a;	// requires strcmp call
+	h: boolean = 20<30;
+	i: boolean = 10<=5;
+	return (b && c) || (d && e) || (f && g) || (h && i);
+}
